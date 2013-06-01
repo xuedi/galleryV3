@@ -1,12 +1,9 @@
-galleryV3
-=========
-
-# Why another PHP gallery?
+## Why another PHP gallery?
 This galley makes only sense to use if you use a root-server or a virtual server, and in combination with a file syncing tool like unison. 
 
 This gallery generates everything out of the gallery directory, just a more fancy layout than to allow your webserver to index the directory directly ;-)
 
-# Basic install
+## Basic install
 
 Upload the content to your website and create two folders, make cache writeable, that's it
 
@@ -16,7 +13,7 @@ Upload the content to your website and create two folders, make cache writeable,
 
 Open that location in your browser and open admin.php, now create a Menu & fileIndex and so on (basicly just rampageClick everything)
 
-# Advanced install
+## Advanced install
 
 * You might like to add some auth code to admin.php, even tough you cant break anything in there
 
@@ -27,8 +24,7 @@ Open that location in your browser and open admin.php, now create a Menu & fileI
 * Have a web access rule with pass to protect your privacy
 
 
-# Ingredients
+## Ingredients
 
 There is a jquery and a lightbox in there (in this case a modified slimbox2: <http://www.digitalia.be/software/slimbox2>)
-
 
