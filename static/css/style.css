@@ -1,0 +1,111 @@
+/**** tag definitions ****/
+
+body {
+    background: white;
+    margin: 0px;
+}
+
+div#base {
+    font-family: 'Trebuchet MS',Tahoma,Verdana,Geneva,Arial;
+    font-size: 12px;
+    text-align: left;
+    margin: 0px auto;
+    position: relative;
+}
+
+div#gallery {
+    margin-left: 380px;
+}
+
+div.menu_container {
+    float: left;
+    background: #666;
+    width: 360px;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+
+div.menu_admin {
+    background: white;
+    color: black;
+}
+
+
+li.menue_item {
+    display: block;
+    cursor: pointer;
+    background: #eee;
+    padding: 4px;
+    padding-left: 6px;
+    border-bottom: 1px solid white;
+}
+li.admin {
+    background: #666;
+    color: white;
+    cursor: auto;
+}
+
+a.menue_link,
+a.menue_link:active,
+a.menue_link:visited {
+    color: #333;
+    text-decoration: none;
+}
+a.menue_link:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+a.img_link,
+a.img_link:active,
+a.img_link:visited,
+a.img_link:hover {
+    text-decoration: none;
+}
+
+div.menue_item_cnt {
+    color: grey;
+    display: inline;
+}
+
+div.menue_item_admin {
+    float: right;
+    color: #bbb;
+    display: inline;
+}
+
+div.thumb {
+    float: left;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+p.thumb_name {
+    padding-top: 0px;
+    color: #aaa;
+    font-size: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+}
+
+h1.admin {
+    color: black;
+    background: #eee;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px;
+}
