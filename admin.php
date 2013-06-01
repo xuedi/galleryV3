@@ -68,6 +68,11 @@ require_once("include/functions.php");
 				<a class='menue_link' href='admin.php?action=updateFileIndex'>updateFileIndex</a>
 				<div class='menue_item_admin'>is needed for thumb creation</div>
 			</li>
+			<?php if(showFooter) { ?>
+			<li class='menue_item footer'>
+				Run by <a target="_Blank" href='https://github.com/xuedi/galleryV3'>galleryV3</a> (c) 2013 xuedi
+			</li>
+			<?php } ?>
 		</div>
 		</div>
 		<div id="gallery">

@@ -1,4 +1,7 @@
 <?php
+// Show footer
+define("showFooter", true);
+
 // Gallery thumbnails size
 define("thumbSize", 100);
 

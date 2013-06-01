@@ -34,6 +34,11 @@ require_once("include/functions.php");
             <h1>galleryV3</h1>
             <div id="menue_elemnts">
                 <?php include("cache/menu.html");?>
+                <?php if(showFooter) { ?>
+                <li class='menue_item footer'>
+                    Run by <a target="_Blank" href='https://github.com/xuedi/galleryV3'>galleryV3</a> (c) 2013 xuedi
+                </li>
+                <?php } ?>
             </div>
         </div>
         <div id="gallery">

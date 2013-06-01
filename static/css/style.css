@@ -46,6 +46,11 @@ li.admin {
     color: white;
     cursor: auto;
 }
+li.footer {
+    background: #aaa;
+    cursor: auto;
+    text-align: center;
+}
 
 a.menue_link,
 a.menue_link:active,
