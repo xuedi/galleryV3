@@ -23,7 +23,6 @@ require_once("include/functions.php");
 <head>
     <title>Gallery2</title>
     <script type="text/javascript" src="static/js/jquery-1.8.1.min.js"></script>
-    <script type="text/javascript" src="static/js/javascript.js"></script>
     <script type="text/javascript" src="static/js/slimbox2.js"></script>
     <link rel="stylesheet" href="static/css/style.css" type="text/css" />
     <link rel="stylesheet" href="static/css/slimbox2.css" type="text/css" />
