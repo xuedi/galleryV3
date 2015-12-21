@@ -45,11 +45,13 @@ function countMissing() {
 }
 function genThumnails() {
     $cnt = 0;
+    $changed = 0;
     $data = unserialize(file_get_contents("cache/fileIndex.array"));
     shuffle($data);
     foreach($data as $key => $value) {
         if($cnt<20 && (!$value['thumbExist']||!$value['imageExist']) ) {
             $cnt++;
+            $changed++;
 
             $dest = absolutePath."cache/t_".$value['id']."-".thumbSize.".jpg";
             $source = absolutePath.$value['path'];
@@ -64,6 +66,9 @@ function genThumnails() {
     }
     // refresh index
     saveFileIndex(updateFileIndex(genInit("galleries",true)));
+
+    // keep reloading until done (multi tab=multi cpu)
+    if($changed) echo "<script language='javascript'>\n<!--\n location.reload(); \n//-->\n</script>";
 }
 function genJson($data, $level=0) {
     foreach($data as $item => $key) {
